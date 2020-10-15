@@ -1,0 +1,13 @@
+apiVersion: kpt.dev/v1alpha1
+kind: Kptfile
+metadata:
+  name: kraan-addons
+upstream:
+  type: git
+  git:
+    commit: 279fd2d711063d72a8c0cb01a5495e2518e5f399
+    repo: https://github.com/chanwit/kraan-addons
+    directory: /
+    ref: main
+packageMetadata:
+  shortDescription: sample description
