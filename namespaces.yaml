@@ -7,4 +7,10 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
+  name: mgmt
+---
+apiVersion: v1
+kind: Namespace
+metadata:
   name: bootstrap
+
